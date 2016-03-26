@@ -1,5 +1,4 @@
 import {App, Platform} from 'ionic-angular';
-import {TabsPage} from './pages/tabs/tabs';
 import {Dashboard} from './pages/dashboard/dashboard';
 
 // https://angular.io/docs/ts/latest/api/core/Type-interface.html
