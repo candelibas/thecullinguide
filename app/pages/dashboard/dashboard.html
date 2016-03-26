@@ -2,15 +2,8 @@
   <ion-title>Dashboard</ion-title>
 </ion-navbar>
 
-<ion-content padding class="dashboard">
+<ion-content padding class="dashboard dark-background">
   <button danger full *ngFor="#p of pages" (click)="openPage(p)">
-        {{p.title}}
+        {{ p.title }}
   </button>
-  <!--button danger full (click)="openPage('News')">News</button>
-  <button danger full (click)="openPage('Airdrops')">Airdrops</button>
-  <button danger full (click)="openPage('Perks')">Perks</button>
-  <button danger full (click)="openPage('Weapons')">Weapons</button>
-  <button danger full (click)="openPage('Builds')">Builds</button>
-  <button danger full (click)="openPage('FightMechanics')">Fight Mechanics</button>
-  <button danger full (click)="openPage('Map')">Map</button -->
 </ion-content>
