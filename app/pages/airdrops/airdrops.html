@@ -1,0 +1,13 @@
+<ion-navbar dark *navbar>
+  <ion-title>Airdrops</ion-title>
+</ion-navbar>
+
+<ion-content padding class="airdrops dark-background">
+
+  <ion-card *ngFor="#a of airdrops">
+
+    <img src="{{ a.img }}" />
+
+  </ion-card>
+
+</ion-content>
