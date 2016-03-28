@@ -14,7 +14,7 @@ import {Type} from 'angular2/core';
 
 export class Dashboard {
 
-  public pages: Array<{ title: string, component: Type }>
+  public pages: Array<{ title: string, component: Type, icon: string }>
 
   constructor(private nav: NavController, private app: IonicApp) {
 
@@ -22,9 +22,9 @@ export class Dashboard {
 
     // Let's define the pages
     this.pages = [
-      { title: 'News', component: News },
-      { title: 'Airdrops', component: Airdrops },
-      { title: 'MAP', component: Map}
+      { title: 'News', component: News, icon: 'list-box' },
+      { title: 'Airdrops', component: Airdrops, icon: 'jet' },
+      { title: 'MAP', component: Map, icon: 'map'}
 
     ];
   }
