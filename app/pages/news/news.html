@@ -2,10 +2,11 @@
   <ion-title>News</ion-title>
 </ion-navbar>
 
-<ion-content padding class="news dark-background">
+<ion-content class="news dark-background">
   <ion-list>
-  <ion-item style="color: red" *ngFor="#n of news?.appnews?.newsitems" (click)="newsDetail(n.title, n.contents)">
-    {{ n.title }}
+    
+  <ion-item style="color: #ED1F52; font-size: 14px" *ngFor="#n of news?.appnews?.newsitems" (click)="newsDetail(n.title, n.contents)">
+    <ion-icon name="arrow-dropright" dark></ion-icon> {{ n.title }}
   </ion-item>
 
 </ion-list>
