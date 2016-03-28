@@ -4,7 +4,7 @@
 
 <ion-content padding class="news dark-background">
   <ion-list>
-  <ion-item *ngFor="#n of news?.appnews?.newsitems" (click)="newsDetail(n.title, n.contents)">
+  <ion-item style="color: red" *ngFor="#n of news?.appnews?.newsitems" (click)="newsDetail(n.title, n.contents)">
     {{ n.title }}
   </ion-item>
 
