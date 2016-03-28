@@ -13,7 +13,7 @@ export class NewsService {
   }
 
   get() {
-    return this.http.get("http://api.steampowered.com/ISteamNews/GetNewsForApp/v0002/?appid=437220&count=5&maxlength=300&format=json")
+    return this.http.get("http://api.steampowered.com/ISteamNews/GetNewsForApp/v0002/?appid=437220&count=10&format=json")
       .map(res => res.json());
   }
 
