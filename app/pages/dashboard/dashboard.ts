@@ -1,10 +1,12 @@
-import {Page, NavController, IonicApp} from 'ionic-angular';
+import {Page, NavController, IonicApp, Modal} from 'ionic-angular';
 
 import {News} from '../news/news';
 import {Airdrops} from '../airdrops/airdrops';
 import {Map} from '../map/map';
 import {Perks} from '../perks/perks';
 import {Crafting} from '../crafting/crafting';
+
+import {AboutModal} from './aboutmodal'
 
 // https://angular.io/docs/ts/latest/api/core/Type-interface.html
 import {Type} from 'angular2/core';
@@ -39,6 +41,14 @@ export class Dashboard {
   */
   openPage(page) {
     this.nav.push(page.component);
+  }
+  
+  /*
+  * Shows the about modal
+  */
+  showAboutModal() {
+    let modal = Modal.create(AboutModal);
+    this.nav.present(modal)
   }
 
 
