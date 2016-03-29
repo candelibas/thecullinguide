@@ -1,5 +1,4 @@
 import {Page, NavController} from 'ionic-angular';
-import {Http} from 'angular2/http';
 import {HTTP_PROVIDERS} from 'angular2/http';
 
 @Page({
