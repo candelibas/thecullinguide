@@ -1,14 +1,16 @@
-[
-  { "name": "Alarm Gunner", "img": "img/perks/utility/alarmgunner.png" },
-  { "name": "Armorer", "img": "img/perks/utility/armorer.png" },
-  { "name": "Backpacker", "img": "img/perks/utility/backpacker.png" },
-  { "name": "Cheap Skate", "img": "img/perks/utility/cheapskate.png" },
-  { "name": "Chemist", "img": "img/perks/utility/chemist.png" },
-  { "name": "Disability Insurance", "img": "img/perks/utility/disabilityinsurance.png" },
-  { "name": "Faster Crafter", "img": "img/perks/utility/fastercrafter.png" },
-  { "name": "Faster Trapper", "img": "img/perks/utility/fastertrapper.png" },
-  { "name": "Leg Day", "img": "img/perks/utility/legday.png" },
-  { "name": "Load Dropper", "img": "img/perks/utility/loaddropper.png" },
-  { "name": "Man Tracker", "img": "img/perks/utility/mantracker.png" },
-  { "name": "Stealthy", "img": "img/perks/utility/stealthy.png" }
-]
+{
+  "items": [
+    { "name": "Alarm Gunner", "img": "img/perks/utility/alarmgunner.png" },
+    { "name": "Armorer", "img": "img/perks/utility/armorer.png" },
+    { "name": "Backpacker", "img": "img/perks/utility/backpacker.png" },
+    { "name": "Cheap Skate", "img": "img/perks/utility/cheapskate.png" },
+    { "name": "Chemist", "img": "img/perks/utility/chemist.png" },
+    { "name": "Disability Insurance", "img": "img/perks/utility/disabilityinsurance.png" },
+    { "name": "Faster Crafter", "img": "img/perks/utility/fastercrafter.png" },
+    { "name": "Faster Trapper", "img": "img/perks/utility/fastertrapper.png" },
+    { "name": "Leg Day", "img": "img/perks/utility/legday.png" },
+    { "name": "Load Dropper", "img": "img/perks/utility/loaddropper.png" },
+    { "name": "Man Tracker", "img": "img/perks/utility/mantracker.png" },
+    { "name": "Stealthy", "img": "img/perks/utility/stealthy.png" }
+  ]
+}

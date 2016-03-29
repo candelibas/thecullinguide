@@ -1,19 +1,21 @@
-[
-  { "name": "Basher", "img": "img/perks/meleeweapons/basher.png" },
-  { "name": "Bloodbath", "img": "img/perks/meleeweapons/bloodbath.png" },
-  { "name": "Brutus", "img": "img/perks/meleeweapons/brutus.png" },
-  { "name": "Chopper", "img": "img/perks/meleeweapons/chopper.png" },
-  { "name": "Clotting Agent", "img": "img/perks/meleeweapons/clottingagent.png" },
-  { "name": "Crippler", "img": "img/perks/meleeweapons/crippler.png" },
-  { "name": "Hearty Constitution", "img": "img/perks/meleeweapons/heartyconstitution.png" },
-  { "name": "Knuckle Dragger", "img": "img/perks/meleeweapons/knuckledragger.png" },
-  { "name": "Leather Hide", "img": "img/perks/meleeweapons/leatherhide.png" },
-  { "name": "Mangler", "img": "img/perks/meleeweapons/mangler.png" },
-  { "name": "Maniac", "img": "img/perks/meleeweapons/maniac.png" },
-  { "name": "Poking Deeply", "img": "img/perks/meleeweapons/pokingdeeply.png" },
-  { "name": "Runs with Knives", "img": "img/perks/meleeweapons/runswithknives.png" },
-  { "name": "Sneaky Poker", "img": "img/perks/meleeweapons/sneakypoker.png" },
-  { "name": "Speedy Spear", "img": "img/perks/meleeweapons/speedyspear.png" },
-  { "name": "Submission", "img": "img/perks/meleeweapons/submission.png" },
-  { "name": "Tendon Cutter", "img": "img/perks/meleeweapons/tendoncutter.png" }
-]
+{
+  "items": [
+    { "name": "Basher", "img": "img/perks/meleeweapons/basher.png" },
+    { "name": "Bloodbath", "img": "img/perks/meleeweapons/bloodbath.png" },
+    { "name": "Brutus", "img": "img/perks/meleeweapons/brutus.png" },
+    { "name": "Chopper", "img": "img/perks/meleeweapons/chopper.png" },
+    { "name": "Clotting Agent", "img": "img/perks/meleeweapons/clottingagent.png" },
+    { "name": "Crippler", "img": "img/perks/meleeweapons/crippler.png" },
+    { "name": "Hearty Constitution", "img": "img/perks/meleeweapons/heartyconstitution.png" },
+    { "name": "Knuckle Dragger", "img": "img/perks/meleeweapons/knuckledragger.png" },
+    { "name": "Leather Hide", "img": "img/perks/meleeweapons/leatherhide.png" },
+    { "name": "Mangler", "img": "img/perks/meleeweapons/mangler.png" },
+    { "name": "Maniac", "img": "img/perks/meleeweapons/maniac.png" },
+    { "name": "Poking Deeply", "img": "img/perks/meleeweapons/pokingdeeply.png" },
+    { "name": "Runs with Knives", "img": "img/perks/meleeweapons/runswithknives.png" },
+    { "name": "Sneaky Poker", "img": "img/perks/meleeweapons/sneakypoker.png" },
+    { "name": "Speedy Spear", "img": "img/perks/meleeweapons/speedyspear.png" },
+    { "name": "Submission", "img": "img/perks/meleeweapons/submission.png" },
+    { "name": "Tendon Cutter", "img": "img/perks/meleeweapons/tendoncutter.png" }
+  ]
+}

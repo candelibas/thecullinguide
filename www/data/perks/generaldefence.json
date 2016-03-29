@@ -1,6 +1,8 @@
-[
+{
+  "items": [
   { "name": "Bombsuit", "img": "img/perks/generaldefence/bombsuit.png" },
   { "name": "Immunity", "img": "img/perks/generaldefence/immunity.png" },
   { "name": "Thick Skin", "img": "img/perks/generaldefence/thickskin.png" },
   { "name": "Tough Mother", "img": "img/perks/generaldefence/toughmother.png" }
-]
+  ]
+}
