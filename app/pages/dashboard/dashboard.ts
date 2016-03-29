@@ -4,7 +4,7 @@ import {News} from '../news/news';
 import {Airdrops} from '../airdrops/airdrops';
 import {Map} from '../map/map';
 import {Perks} from '../perks/perks';
-
+import {Crafting} from '../crafting/crafting';
 
 // https://angular.io/docs/ts/latest/api/core/Type-interface.html
 import {Type} from 'angular2/core';
@@ -28,7 +28,8 @@ export class Dashboard {
       { title: 'News', component: News, icon: 'list-box' },
       { title: 'Airdrops', component: Airdrops, icon: 'jet' },
       { title: 'Perks', component: Perks, icon: 'cog' },
-      { title: 'MAP', component: Map, icon: 'map'}
+      { title: 'Crafting', component: Crafting, icon: 'build' },
+      { title: 'MAP', component: Map, icon: 'map' }
 
     ];
   }
