@@ -1,0 +1,29 @@
+[
+	{
+	  "meleeweapons": [
+	  { 
+	    "name": "Chopper",
+		"content": "-20% Charge time with all Axes.",
+		"img": "img/perks/meleeweapons/chopper.png" 
+	  },
+	  {
+		"name": "Mangler",
+		"content": "200% of Melee Damage deal with axes is also applied to opponent's stamina.",
+		"img": "img/perks/meleeweapons/mangler.png"
+	  },
+	  {
+		"name": "Maniac",
+		"content": "Reduce all damage taken by %25 while holding any Axe.",
+		"img": "img/perks/meleeweapons/maniac.png"  
+	  }
+	]},
+	
+	{
+	  "generaloffense":[
+	  {
+	    "name": "Ol'Painless",
+		"content": "+10% damage with all weapons, traps and explosives.",
+		"img": "img/perks/generaloffense/olpainless.png"
+	  }
+	]}
+]
