@@ -12,9 +12,9 @@ export class NewsDetail {
 
   constructor(private nav: NavController, private navParams: NavParams) {
     this.nav = nav;
-
     this.navParams = navParams;
 
+    // Send params to html
     this.title = navParams.get('title');
     this.contents = navParams.get('contents');
 
