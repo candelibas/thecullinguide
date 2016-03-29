@@ -13,7 +13,6 @@ export class News {
 
   constructor(private nav: NavController, private navParams: NavParams, private newsService: NewsService) {
     this.nav = nav;
-
     this.navParams = navParams;
 
     this.news = newsService.get().subscribe(
