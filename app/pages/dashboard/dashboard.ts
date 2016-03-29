@@ -1,7 +1,10 @@
 import {Page, NavController, IonicApp} from 'ionic-angular';
+
 import {News} from '../news/news';
 import {Airdrops} from '../airdrops/airdrops';
 import {Map} from '../map/map';
+import {Perks} from '../perks/perks';
+
 
 // https://angular.io/docs/ts/latest/api/core/Type-interface.html
 import {Type} from 'angular2/core';
@@ -24,6 +27,7 @@ export class Dashboard {
     this.pages = [
       { title: 'News', component: News, icon: 'list-box' },
       { title: 'Airdrops', component: Airdrops, icon: 'jet' },
+      { title: 'Perks', component: Perks, icon: 'cog' },
       { title: 'MAP', component: Map, icon: 'map'}
 
     ];
