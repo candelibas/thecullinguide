@@ -1,0 +1,9 @@
+[
+  { "name": "Blowhard", "img": "img/perks/rangedweapons/blowhard.png" },
+  { "name": "Blowsafe", "img": "img/perks/rangedweapons/blowsafe.png" },
+  { "name": "Blowzoom", "img": "img/perks/rangedweapons/blowzoom.png" },
+  { "name": "Box Flexer", "img": "img/perks/rangedweapons/bowflexer.png" },
+  { "name": "Code Red", "img": "img/perks/rangedweapons/codered.png" },
+  { "name": "Longshot", "img": "img/perks/rangedweapons/longshot.png" },
+  { "name": "Stunner", "img": "img/perks/rangedweapons/stunner.png" }
+]
