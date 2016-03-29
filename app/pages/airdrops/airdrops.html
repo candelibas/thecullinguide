@@ -3,7 +3,7 @@
 </ion-navbar>
 
 <ion-content padding class="airdrops dark-background">
-
+<ion-searchbar [(ngModel)]="searchQuery" (input)="getItems($event)"></ion-searchbar>
   <ion-card *ngFor="#a of airdrops">
 
     <img src="{{ a.img }}" />
