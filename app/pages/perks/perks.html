@@ -1,0 +1,26 @@
+<ion-navbar dark *navbar>
+  <ion-title>Perks</ion-title>
+</ion-navbar>
+
+<ion-content padding class="perks dark-background">
+  
+  <button danger full (click)="goPerksDetail('generaldefence', 'General Defence')">
+    <ion-icon name="cube"></ion-icon> General Defence
+  </button>
+  <button danger full (click)="goPerksDetail('generaloffense', 'General Offense')">
+    <ion-icon name="nuclear"></ion-icon> General Offense
+  </button>
+  <button danger full (click)="goPerksDetail('healthstamina', 'Health-Stamina')">
+    <ion-icon name="medkit"></ion-icon> Health/Stamina
+  </button>
+  <button danger full (click)="goPerksDetail('meleeweapons', 'Melee Weapons')">
+    <ion-icon name="hammer"></ion-icon> Melee Weapons
+  </button>
+  <button danger full (click)="goPerksDetail('rangedweapons', 'Ranged Weapons')">
+    <ion-icon name="magnet"></ion-icon> Ranged Weapons
+  </button>
+  <button danger full (click)="goPerksDetail('utility', 'Utility')">
+    <ion-icon name="color-wand"></ion-icon> Utility
+  </button>
+ 
+</ion-content>

@@ -1,0 +1,13 @@
+<ion-navbar dark *navbar>
+  <ion-title>{{ title }}</ion-title>
+</ion-navbar>
+
+<ion-content class="perks dark-background">
+  
+  <ion-row *ngFor="#p of perks?.items">
+    <ion-col width-90 class="center">
+      <img src="{{ p.img }}">
+    </ion-col>
+  </ion-row>
+  
+</ion-content>
