@@ -5,6 +5,7 @@ import {Airdrops} from '../airdrops/airdrops';
 import {Map} from '../map/map';
 import {Perks} from '../perks/perks';
 import {Crafting} from '../crafting/crafting';
+import {Potw} from '../potw/potw';
 
 import {AboutModal} from './aboutmodal'
 
@@ -31,7 +32,8 @@ export class Dashboard {
       { title: 'Airdrops', component: Airdrops, icon: 'jet' },
       { title: 'Perks', component: Perks, icon: 'cog' },
       { title: 'Crafting', component: Crafting, icon: 'build' },
-      { title: 'MAP', component: Map, icon: 'map' }
+      { title: 'MAP', component: Map, icon: 'map' },
+      { title: 'Play of the Week', component: Potw, icon: 'video'}
 
     ];
   }
