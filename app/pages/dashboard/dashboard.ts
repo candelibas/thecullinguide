@@ -33,7 +33,7 @@ export class Dashboard {
       { title: 'Perks', component: Perks, icon: 'cog' },
       { title: 'Crafting', component: Crafting, icon: 'build' },
       { title: 'MAP', component: Map, icon: 'map' },
-      { title: 'Play of the Week', component: Potw, icon: 'video'}
+      { title: 'Play of the Week', component: Potw, icon: 'videocam'}
 
     ];
   }
