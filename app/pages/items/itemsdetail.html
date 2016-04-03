@@ -1,0 +1,13 @@
+<ion-navbar dark *navbar>
+  <ion-title>{{ title }}</ion-title>
+</ion-navbar>
+
+<ion-content padding class="items dark-background">
+  
+  <div *ngFor="#item of items">
+    <button danger full (click)="goItemType(item.src, item.title)">
+      <ion-icon name="{{ item.icon }}"></ion-icon> {{ item.title }}
+    </button>
+  </div>
+  
+</ion-content>
