@@ -1,0 +1,16 @@
+<ion-navbar dark *navbar>
+  <ion-title>Play of the Week</ion-title>
+</ion-navbar>
+
+<ion-content padding class="dark-background">
+
+  <ion-card *ngFor="#link of links | values, #i = index">
+    
+    <ion-card-content primary>
+      <ion-card-header><b>Play of the Week #{{i + 1}}</b></ion-card-header>
+      <iframe width="100%" height="315" src="https://www.youtube.com/embed/{{ link | videoid}}" frameborder="0" allowfullscreen></iframe>
+    </ion-card-content>
+
+  </ion-card>
+
+</ion-content>
