@@ -11,11 +11,7 @@ export class Perks {
   constructor(private nav: NavController) {
     this.nav = nav;
   }
-  
-  /*
-  * Send the 
-  *
-  */
+
   goPerksDetail(page, title) {
     this.nav.push(PerksDetail, {perk: page, title: title});
   }
