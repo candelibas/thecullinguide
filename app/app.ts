@@ -7,6 +7,7 @@ import {Type} from 'angular2/core';
 
 @App({
   template: '<ion-nav [root]="rootPage"></ion-nav>',
+  prodMode: true,
   config: {
     tabbarPlacement: 'bottom'
   } // http://ionicframework.com/docs/v2/api/config/Config/
