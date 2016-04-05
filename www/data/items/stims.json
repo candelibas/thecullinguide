@@ -1,0 +1,40 @@
+{
+  "items": [
+    {
+      "name": "X-Plosive Runs",
+      "func": "10",
+      "description": "Increases sprint speed by 15% for two minutes.",
+      "img": "img/items/stims/xplosiveruns.png"
+    },
+    {
+      "name": "Muscleman Milk",
+      "func": "10",
+      "description": "Increases damage dealt by 15% for two minutes.",
+      "img": "img/items/stims/muscleman.png"
+    },
+    {
+      "name": "Iron 4 Skin",
+      "func": "10",
+      "description": "Reduces incoming damage taken by 15% for two minutes.",
+      "img": "img/items/stims/iron4skin.png"
+    },
+    {
+      "name": "Stamina Boost Shot",
+      "func": "10",
+      "description": "Improves stamina regeneration for two minutes.",
+      "img": "img/items/stims/stamina.png"
+    },
+    {
+      "name": "Med Kit",
+      "func": "20",
+      "description": "Fully restores missing health.",
+      "img": "img/items/stims/medkit.png"
+    },
+    {
+      "name": "Orange Juice",
+      "func": "30",
+      "description": "Combines the effects of X-plosive Runs, Muscleman Milk and Iron 4 Skin, lasting two minutes.",
+      "img": "img/items/stims/orangejuice.png"
+    }
+  ]
+}

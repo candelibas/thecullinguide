@@ -1,0 +1,28 @@
+{
+  "items": [
+   {
+     "name": "Impact Grenade",
+     "func": "25",
+     "damage": "65",
+     "img": "img/items/explosives/impactgrenade.png"
+   },
+   {
+     "name": "Explosive Mine",
+     "func": "25",
+     "damage": "65",
+     "img": "img/items/explosives/explosivemine.png"
+   },
+   {
+     "name": "Remote Explosive",
+     "func": "30",
+     "damage": "95",
+     "img": "img/items/explosives/remoteexplosive.png"
+   },
+   {
+     "name": "Dynamite",
+     "func": "30",
+     "damage": "80",
+     "img": "img/items/explosives/dynamite.png"
+   }
+  ]
+}

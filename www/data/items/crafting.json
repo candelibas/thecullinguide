@@ -1,0 +1,21 @@
+{
+  "items": [
+   {
+     "name": "Weapons",
+     "img": "img/items/crafting/weapons.png"
+   },
+   {
+     "name": "Items",
+     "img": "img/items/crafting/items.png"
+   },
+   {
+     "name": "Traps",
+     "img": "img/items/crafting/traps.png"
+   },
+   {
+     "name": "Ammo",
+     "img": "img/items/crafting/ammo.png"
+   }
+    
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "items": [
+    {
+      "name": "Bandage",
+      "heal": "40 HP",
+      "img": "img/items/healing/bandage.png" 
+    },
+    {
+      "name": "Med Kit",
+      "heal": "100 HP",
+      "img": "img/items/healing/medkit.png" 
+    }
+  ]
+}

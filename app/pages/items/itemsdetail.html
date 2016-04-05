@@ -4,10 +4,188 @@
 
 <ion-content padding class="items dark-background">
   
-  <div *ngFor="#item of items">
-    <button danger full (click)="goItemType(item.src, item.title)">
-      <ion-icon name="{{ item.icon }}"></ion-icon> {{ item.title }}
-    </button>
+  
+  <!-- Crafting -->
+  <div *ngIf="src == 'crafting' ">
+    <div *ngFor="#item of items?.items">
+      <ion-list>
+        <img src="{{ item.img }}" class="center">
+      </ion-list>
+   </div>
   </div>
+  
+  <!-- Weapons -->
+  <div *ngIf="src == 'weapons' " >
+    <div *ngFor="#item of items?.items">
+      <ion-list>
+        <ion-item><img src="{{ item.img }}" class="center"></ion-item>
+        <ion-item>
+          <h2 style="text-align: center; font-weight: bold">
+            {{ item.name }}
+          </h2>
+        </ion-item>
+        <ion-item *ngIf="item.tier">
+          <b>Tier:</b>
+          <h2 item-right>
+            {{ item.tier }}
+          </h2>
+        </ion-item>
+        <ion-item *ngIf="item.type">
+          <b>Tier:</b>
+          <h2 item-right>
+            {{ item.type }}
+          </h2>
+        </ion-item>
+        <ion-item *ngIf="item.damage">
+          <b>Damage:</b>
+          <h2 item-right>
+            {{ item.damage }}
+          </h2>
+        </ion-item>
+        <ion-item>
+          <b>FUNC:</b>
+          <h2 item-right>
+            {{ item.func }}
+          </h2>
+        </ion-item>
+        <ion-item *ngIf="item.wound">
+          <b>Wounds:</b>
+          <h2 item-right>
+            {{ item.wound }}
+          </h2>
+        </ion-item>
+        <ion-item *ngIf="item.speed">
+          <b>Speed:</b>
+          <h2 item-right>
+            {{ item.speed }}
+          </h2>
+        </ion-item>
+        <ion-item *ngIf="item.intensity">
+          <b>Intensity:</b>
+          <h2 item-right>
+            {{ item.intensity }}
+          </h2>
+        </ion-item>
+        <ion-item *ngIf="item.description" [innerHTML]="item.description"></ion-item>
+      </ion-list>
+    </div>
+  </div>
+  
+  <!-- Stims -->
+  <div *ngIf="src == 'stims' " >
+    <div *ngFor="#item of items?.items">
+      <ion-list>
+        <ion-item><img src="{{ item.img }}" class="center"></ion-item>
+        <ion-item>
+          <h2 style="text-align: center; font-weight: bold">
+            {{ item.name }}
+          </h2>
+        </ion-item>
+        <ion-item>
+          <b>FUNC:</b>
+          <h2 item-right>
+            {{ item.func }}
+          </h2>
+        </ion-item>
+        <ion-item [innerHTML]="item.description"></ion-item>
+      </ion-list>
+    </div>
+  </div>
+  
+  
+  <!-- Traps -->
+  <div *ngIf="src == 'traps' " >
+    <div *ngFor="#item of items?.items">
+      <ion-list>
+        <ion-item><img src="{{ item.img }}" class="center"></ion-item>
+        <ion-item>
+          <h2 style="text-align: center; font-weight: bold">
+            {{ item.name }}
+          </h2>
+        </ion-item>
+        <ion-item>
+          <b>Damage:</b>
+          <h2 item-right>
+            {{ item.damage }}
+          </h2>
+        </ion-item>
+        <ion-item>
+          <b>FUNC:</b>
+          <h2 item-right>
+            {{ item.func }}
+          </h2>
+        </ion-item>
+        <ion-item>
+          <b>Wounds:</b>
+          <h2 item-right>
+            {{ item.wounds }}
+          </h2>
+        </ion-item>
+        <ion-item>
+          <b>Containing Airdrops:</b>
+          <h2 item-right>
+            {{ item.containingairdrops }}
+          </h2>
+        </ion-item>
+      </ion-list>
+    </div>
+  </div>
+  
+  <!-- Explosives -->
+  <div *ngIf="src == 'explosives' ">
+    <div *ngFor="#item of items?.items">
+      <ion-list>
+        <ion-item><img src="{{ item.img }}" class="center"></ion-item>
+        <ion-item>
+          <h2 style="text-align: center; font-weight: bold">
+            {{ item.name }}
+          </h2>
+        </ion-item>
+        <ion-item>
+          <b>Damage:</b>
+          <h2 item-right>
+            {{ item.damage }}
+          </h2>
+        </ion-item>
+        <ion-item>
+          <b>FUNC:</b>
+          <h2 item-right>
+            {{ item.func }}
+          </h2>
+        </ion-item>
+      </ion-list>
+    </div>
+  </div>
+  
+  <!-- Healing -->
+  <div *ngIf="src == 'healing' ">
+    <div *ngFor="#item of items?.items">
+      <ion-list>
+        <ion-item><img src="{{ item.img }}" class="center"></ion-item>
+        <ion-item>
+          <h2 style="text-align: center; font-weight: bold">
+            {{ item.name }}
+          </h2>
+        </ion-item>
+        <ion-item>
+          <b>Heals:</b>
+          <h2 item-right>
+            {{ item.heal }}
+          </h2>
+        </ion-item>
+      </ion-list>
+    </div>
+  </div>
+  
+  <!-- Armors -->
+  <div *ngIf="src == 'armors' ">
+    <div *ngFor="#item of items?.items">
+      <ion-list>
+        <img src="{{ item.img }}" class="center">
+      </ion-list>
+     </div>
+   </div>
+  
+  
   
 </ion-content>

@@ -1,0 +1,36 @@
+{
+  "items": [
+    {
+      "name": "Caltrops", 
+      "damage": "-",
+      "func": "3",
+      "wounds": "Cripple, Bleed",
+      "containingairdrops": "Ninja, Trapper",
+      "img": "img/items/traps/caltrops.png"
+    },
+    {
+      "name": "Punji Sticks", 
+      "damage": "10",
+      "func": "3",
+      "wounds": "Sickness, Bleed",
+      "containingairdrops": "Guerilla, Trapper",
+      "img": "img/items/traps/punjisticks.png"
+    },
+    {
+      "name": "Crafted Snare", 
+      "damage": "10",
+      "func": "3",
+      "wounds": "Snare",
+      "containingairdrops": "Climber",
+      "img": "img/items/traps/craftedsnare.png"
+    },
+    {
+      "name": "Steel Snare", 
+      "damage": "25",
+      "func": "10",
+      "wounds": "Snare",
+      "containingairdrops": "Thief, Trapper",
+      "img": "img/items/traps/steelsnare.png"
+    }
+  ]
+}

@@ -16,31 +16,31 @@ export class ItemsService {
   get(category) {
     if(category == "crafting") {
       // load json data
-      this.category = this.http.get("data/crafting.json").map(res => res.json());
+      this.category = this.http.get("data/items/crafting.json").map(res => res.json());
     }
     else if(category == "weapons") {
       // load json data
-      this.category = this.http.get("data/weapons.json").map(res => res.json());
+      this.category = this.http.get("data/items/weapons.json").map(res => res.json());
     }
     else if(category == "stims") {
       // load json data
-      this.category = this.http.get("data/stims.json").map(res => res.json());
+      this.category = this.http.get("data/items/stims.json").map(res => res.json());
     }
     else if(category == "traps") {
       // load json data
-      this.category = this.http.get("data/traps.json").map(res => res.json());
+      this.category = this.http.get("data/items/traps.json").map(res => res.json());
     }
     else if(category == "explosives") {
       // load json data
-      this.category = this.http.get("data/explosives.json").map(res => res.json());
+      this.category = this.http.get("data/items/explosives.json").map(res => res.json());
     }
     else if(category == "healing") {
       // load json data
-      this.category = this.http.get("data/healing.json").map(res => res.json());
+      this.category = this.http.get("data/items/healing.json").map(res => res.json());
     }
     else if(category == "armors") {
       // load json data
-      this.category = this.http.get("data/armors.json").map(res => res.json());
+      this.category = this.http.get("data/items/armors.json").map(res => res.json());
     }
     else {
       return false;
