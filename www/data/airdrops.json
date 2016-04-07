@@ -1,7 +1,7 @@
 [
 	{
 	  "name" : "Addict",
-	  "img" : "img/airdrops/stalker.png"
+	  "img" : "img/airdrops/addict.png"
 	},
 	{
 	  "name" : "Archer",
@@ -89,7 +89,7 @@
 	},
 	{
 	  "name" : "Self Defence",
-	  "img" : "img/airdrops/bandito.png"
+	  "img" : "img/airdrops/selfdefense.png"
 	},
 	{
 	  "name" : "Slugger",
