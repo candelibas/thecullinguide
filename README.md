@@ -13,3 +13,4 @@ Done!
 * Add Loading Bar
 * Add searchbar for Items > Weapons
 * Builds: Create page, fill contents
+* Add Virtual List for the items and images for lazy load
