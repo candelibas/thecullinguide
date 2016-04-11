@@ -14,3 +14,4 @@ Done!
 * Add searchbar for Items > Weapons
 * Builds: Create page, fill contents
 * Add Virtual List for the items and images for lazy load
+* Add hardware back button(it will be available when ionic beta.5 comes)
