@@ -15,3 +15,6 @@ Done!
 * Add Virtual List for the items and images for lazy load
 * Add hardware back button(it will be available when ionic beta.5 comes)
 * Change map for better quality
+
+## Download
+* Google Play Store: https://play.google.com/store/apps/details?id=io.ionic.thecullinguideapp
